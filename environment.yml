@@ -1,0 +1,16 @@
+name: firefly-py-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - jupyterlab
+    - astropy
+    - pyvo
+    - s3fs
+    - reproject
+    - firefly-client
+    - jupyter-firefly-extensions
