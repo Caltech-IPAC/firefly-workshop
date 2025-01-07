@@ -50,7 +50,6 @@ using Firefly in [exercises](exercises/) directory:
 - [Using Firefly visualization tools in Python to vet SEDs](exercises/SEDs_in_Firefly.ipynb)
 - [Using Firefly visualization tools to understand the light curves of Solar System objects](exercises/NEOWISE_light_curve_demo.ipynb)
 
-***TODO: convert these notebooks to exercise format (removing code).***
 
 ## Solutions
 
