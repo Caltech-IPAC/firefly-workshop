@@ -35,11 +35,31 @@ for fewer installation headaches.
     export FIREFLY_URL=https://irsa.ipac.caltech.edu/irsaviewer
     ```
 
-4. Open the exercise notebooks in Jupyter Lab:
+4. Open the repository in Jupyter Lab:
     ```sh
-    cd exercises
     jupyter lab
     ```
+
+
+## Reference/Cheatsheet
+
+Once you have completed the setup instructions above, you are ready to visualise
+your data files from Jupyter Lab in Firefly using the Firefly Python client
+([firefly_client](https://caltech-ipac.github.io/firefly_client) package).
+
+Go through the [Reference](Reference.ipynb) notebook present in this repository
+to learn how to use different capabilities of `firefly_client`. 
+
+The following is a condensed list of all the pages in firefly_client's
+[documentation website](https://caltech-ipac.github.io/firefly_client/index.html)
+that are most relevant for this workshop:
+- [FireflyClient API reference](https://caltech-ipac.github.io/firefly_client/api/firefly_client.FireflyClient.html):
+You can use "Methods Summary" table to navigate to learn about the function
+you are interested in and its parameters.
+- [Displaying Images using Firefly client](https://caltech-ipac.github.io/firefly_client/usage/displaying-images.html)
+- [Visualizing Tables and Catalogs using Firefly client](https://caltech-ipac.github.io/firefly_client/usage/viewing-tables.html)
+- [Visualizing ds9-style Regions using Firefly client](https://caltech-ipac.github.io/firefly_client/usage/overlaying-regions.html)
+- [Making Plots using Firefly client](https://caltech-ipac.github.io/firefly_client/usage/charting.html)
 
 
 ## Exercises
@@ -55,23 +75,3 @@ using Firefly in [exercises](exercises/) directory:
 
 The solutions of the above exercise notebooks are present at [Firefly section in
 IRSA Tutorials](https://caltech-ipac.github.io/irsa-tutorials/#interactive-visualization-in-python-with-firefly) website.
-
-
-## Reference/Cheatsheet
-
-Once you have completed the setup instructions above, you are ready to visualise
-your data files from python in Firefly using the Firefly Python client.
-To learn how to use Firefly Python client (`firefly_client` package), you can
-explore its [documentation website](https://caltech-ipac.github.io/firefly_client/index.html).
-
-
-The following is a condensed list of all those pages that are most relevant for 
-this workshop:
-- [FireflyClient API reference](https://caltech-ipac.github.io/firefly_client/api/firefly_client.FireflyClient.html):
-You can use "Methods Summary" table to navigate to learn about the function
-you are interested in and its parameters.
-- [Displaying Images using Firefly client](https://caltech-ipac.github.io/firefly_client/usage/displaying-images.html)
-- [Visualizing Tables and Catalogs using Firefly client](https://caltech-ipac.github.io/firefly_client/usage/viewing-tables.html)
-- [Visualizing ds9-style Regions using Firefly client](https://caltech-ipac.github.io/firefly_client/usage/overlaying-regions.html)
-- [Making Plots using Firefly client](https://caltech-ipac.github.io/firefly_client/usage/charting.html)
-
